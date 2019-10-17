@@ -10,5 +10,15 @@ body{
     height:100px;
     width: 100%;
     background-color: #FFDBAA;
+    text-align: center;
     text-align: left;
 }
+.button{
+    height:100px;
+    width: 100%;
+    background-color: rgb(200, 170, 255);
+    text-align: center;
+    text-align: left;
+}
+
+   
