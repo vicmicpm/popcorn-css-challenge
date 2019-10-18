@@ -1,6 +1,6 @@
 /*COLORS: 
 Header background - #FFDBAA
-button - #805215
+button - #1105215
 Header Text - #553100
 Main background - #D4A76A*/
 body{  
@@ -12,13 +12,54 @@ body{
     background-color: #FFDBAA;
     text-align: center;
     text-align: left;
+    border-bottom: dimgrey 3px solid;
+   
 }
-.button{
-    height:100px;
-    width: 100%;
+button{
+    height:30px;
+    width: 90px;
     background-color: rgb(200, 170, 255);
     text-align: center;
-    text-align: left;
-}
-
+    margin-left: 20px;
    
+}
+h1{display: inline;}
+.seperation{margin-left: 400px;}
+.mainLowerBox{
+    height:800px;
+    width: 100%;
+    background-color: rgb(255, 228, 170);
+    text-align: center;
+    text-align: left;
+    
+}
+#leftBox{
+    height:30px;
+    width: 90px;
+    background-color: red;
+    text-align: center;
+    display: inline-block;
+    margin-left: 100px;
+    border-block: 3px;
+}
+#rightBox{
+    height:30px;
+    width: 90px;
+    background-color: rgb(200, 170, 255);
+    text-align: center;
+    display: inline-block;
+    
+}
+#middleBox{
+    height:30px;
+    width: 90px;
+    background-color: rgb(255, 170, 184);
+    text-align: center;
+    display: inline-block;
+}
+#lowerBox{
+height:30px;
+width: 100%;
+background-color: green; 
+text-align: center;
+}
